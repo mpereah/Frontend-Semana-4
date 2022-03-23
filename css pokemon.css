@@ -1,0 +1,82 @@
+form {
+    width: 100px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    width: 350px;
+    min-height: 340px;
+    background: black;
+    color: aliceblue
+}
+
+.padre{
+    background-image: url("https://simaro.co/media/catalog/product/T/O/TOMY-Pokemon-Pokedex-interactivo_5_2.jpeg");
+    width: 1000px;
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo{
+    width: 902px;
+}
+
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+    background: white
+}
+
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: aliceblue;
+}   
+
+
+.poke-img {
+    width: 180px;
+    border-radius: 5%;
+}
+
+.poke-abilities > div div{
+    padding: 5px;
+    border: 1px dashed black;
+    background-color: aliceblue;
+    margin-top: 5px;
+    border-radius: 4px;
+    color: grey;
+
+}
+
